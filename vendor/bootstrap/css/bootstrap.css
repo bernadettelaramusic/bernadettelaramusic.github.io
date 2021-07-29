@@ -567,7 +567,7 @@ pre code {
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 1560px;
   }
 }
 
@@ -683,7 +683,7 @@ pre code {
 .col-9 {
   -ms-flex: 0 0 75%;
   flex: 0 0 75%;
-  max-width: 75%;
+  /* max-width: 75%; */
 }
 
 .col-10 {
@@ -1807,7 +1807,7 @@ pre code {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 1500.98px) {
   .table-responsive-md {
     display: block;
     width: 100%;
@@ -1819,7 +1819,7 @@ pre code {
   }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 151.98px) {
   .table-responsive-lg {
     display: block;
     width: 100%;
@@ -4325,7 +4325,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 151.98px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;

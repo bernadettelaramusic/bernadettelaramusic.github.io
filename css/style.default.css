@@ -23,13 +23,13 @@ body {
 
 .page-holder {
   width: calc(100% - $sidebar-width);
-  margin-left: 18rem;
+  margin-left: 4rem;
   min-height: 100vh;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1500.98px) {
   .page-holder {
     width: 100%;
     margin-left: 0;
@@ -38,7 +38,7 @@ body {
 
 .page-holder.active {
   width: calc(100% - $sidebar-width);
-  margin-left: 18rem;
+  margin-left: 4rem;
 }
 
 /*
@@ -65,7 +65,7 @@ body {
   background: white;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 151.98px) {
   .sidebar {
     margin-left: -18rem;
   }
@@ -1122,7 +1122,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 #style-switch {
-  width: 300px;
+  width: 300;
   padding: 20px;
   position: fixed;
   bottom: 160px;
@@ -1158,7 +1158,8 @@ STYLE SWITCHER FOR DEMO
  * 1. NAVBAR
  */
 .navbar {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0rem;
+  
 }
 
 .navbar-brand {
@@ -1170,7 +1171,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
+  padding: 5rem 0.75rem;
   font-size: 0.875rem;
   line-height: 1;
   border: 1px solid transparent;
@@ -2874,8 +2875,8 @@ code {
     margin-left: -15px;
   }
   .card-deck .card {
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
 }
 

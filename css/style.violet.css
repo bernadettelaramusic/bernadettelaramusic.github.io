@@ -29,7 +29,7 @@ body {
   transition: all 0.3s linear;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 151.98px) {
   .page-holder {
     width: 100%;
     margin-left: 0;
@@ -65,7 +65,7 @@ body {
   background: white;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 151.98px) {
   .sidebar {
     margin-left: -18rem;
   }

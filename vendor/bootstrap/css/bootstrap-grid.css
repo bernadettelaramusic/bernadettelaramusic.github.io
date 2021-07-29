@@ -153,7 +153,7 @@ html {
 .col-9 {
   -ms-flex: 0 0 75%;
   flex: 0 0 75%;
-  max-width: 75%;
+  /* max-width: 75%; */
 }
 
 .col-10 {
@@ -165,7 +165,7 @@ html {
 .col-11 {
   -ms-flex: 0 0 91.666667%;
   flex: 0 0 91.666667%;
-  max-width: 91.666667%;
+  max-width: 100.666667%;
 }
 
 .col-12 {
@@ -350,7 +350,7 @@ html {
   .col-sm-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
-    max-width: 75%;
+    /* max-width: 75%; */
   }
   .col-sm-10 {
     -ms-flex: 0 0 83.333333%;
@@ -522,7 +522,7 @@ html {
   .col-md-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
-    max-width: 75%;
+    /* max-width: 75%; */
   }
   .col-md-10 {
     -ms-flex: 0 0 83.333333%;
@@ -694,7 +694,7 @@ html {
   .col-lg-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
-    max-width: 75%;
+    /* max-width: 75%; */
   }
   .col-lg-10 {
     -ms-flex: 0 0 83.333333%;
@@ -866,7 +866,7 @@ html {
   .col-xl-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
-    max-width: 75%;
+    /* max-width: 75%; */
   }
   .col-xl-10 {
     -ms-flex: 0 0 83.333333%;
@@ -876,7 +876,7 @@ html {
   .col-xl-11 {
     -ms-flex: 0 0 91.666667%;
     flex: 0 0 91.666667%;
-    max-width: 91.666667%;
+    max-width: 100.666667%;
   }
   .col-xl-12 {
     -ms-flex: 0 0 100%;
