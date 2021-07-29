@@ -1,3 +1,13 @@
 h1.start {
-    margin: 30px 0;
+    background-image: url('/assets/spotify kapak foto.jpg');
+    margin: 30px 40px;
+    position: absolute;
+    top: 17px;
+    left: 50px;
+    color:rgb(218, 201, 205);
+}
+
+.gfg {
+    margin: 3%;
+    position: relative;
 }
