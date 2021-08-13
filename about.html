@@ -23,7 +23,25 @@
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/favicon.png">
-   
+    <script>
+      function resizeIFrameToFitContent( iFrame ) {
+
+iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+}
+
+window.addEventListener('DOMContentLoaded', function(e) {
+
+var iFrame = document.getElementById( 'iFrame1' );
+resizeIFrameToFitContent( iFrame );
+
+// or, to resize all iframes:
+var iframes = document.querySelectorAll("iframe");
+for( var i = 0; i < iframes.length; i++) {
+    resizeIFrameToFitContent( iframes[i] );
+}
+} );
+    </script>
   </head>
   <body class="c6">
      <!-- navbar-->
@@ -55,7 +73,7 @@
     <div class="page-holder">
       <div style="margin: 5%;">
       <h1>ABOUT ME</h1>
-      <iframe width="1000" height="1000"src="https://docs.google.com/document/d/e/2PACX-1vTrnw0RXPBuJ3Dh6V2cYofaXUhSQBjWIOpUjIJG3VfbR0BrkTEp0NUhfiuINc9WWXdKnXkK836jRNQ_/pub?embedded=true"></iframe>
+      <iframe width="70%" height="910" scrolling="no" frameBorder="0" src="https://docs.google.com/document/d/e/2PACX-1vTrnw0RXPBuJ3Dh6V2cYofaXUhSQBjWIOpUjIJG3VfbR0BrkTEp0NUhfiuINc9WWXdKnXkK836jRNQ_/pub?embedded=true"></iframe>
      </div>
     <footer class="text-muted" style="background: #0d0d0d">
       <div class="container-fluid py-5">
