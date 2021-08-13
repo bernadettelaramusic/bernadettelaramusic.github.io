@@ -4,10 +4,30 @@ h1.start {
     position: absolute;
     top: 17px;
     left: 50px;
-    color:rgb(218, 201, 205);
+    color:rgb(100, 95, 96);
 }
-
+p.start {
+    background-image: url('/assets/spotify kapak foto.jpg');
+    margin: 30px 40x;
+    position: absolute;
+    top: 130px;
+    left: 90px;
+    font-size: medium;
+    color:rgb(100, 95, 96);
+    max-width: 55ch;
+}
 .gfg {
     margin: 3%;
     position: relative;
 }
+
+div.page {
+    text-align: center;
+    margin:20px
+}
+
+
+body {
+    background-color:mistyrose;
+}
+
