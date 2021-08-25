@@ -1,174 +1,174 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Minimal | Bootstrap portfolio template</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="all,follow">
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <!-- Lightbox CSS-->
-    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
-    <!-- Google fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&amp;display=swap">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/font-awesome.min.css">
 
-    <!-- theme stylesheet-->
-    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
-    <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="css/custom.css">
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="img/favicon.png">
-    <script>
-      function resizeIFrameToFitContent( iFrame ) {
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Minimal | Bootstrap portfolio template</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Google fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&amp;display=swap">
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="img/favicon.png">
 
-iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
-iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
-}
+</head>
+<script type="text/javascript">
+  function iframeLoaded() {
+    var iFrameID = document.getElementById('idIframe');
+    if (iFrameID) {
+      // here you can make the height, I delete it first, then I make it again
+      iFrameID.height = "1300";
+      iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
+    }
+  }
+</script>
 
-window.addEventListener('DOMContentLoaded', function(e) {
+<body class="c6">
 
-var iFrame = document.getElementById( 'iFrame1' );
-resizeIFrameToFitContent( iFrame );
+  <!-- navbar start-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a style="margin: 20px;" href="#">Berna Lara Kasar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-// or, to resize all iframes:
-var iframes = document.querySelectorAll("iframe");
-for( var i = 0; i < iframes.length; i++) {
-    resizeIFrameToFitContent( iframes[i] );
-}
-} );
-    </script>
-  </head>
-  <body class="c6">
-     <!-- navbar-->
-     <header class="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a style="margin: 20px;" href="#">Berna Lara Kasar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item ">
-              <a class="nav-link" href="projects.html">Projects <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="about.html">About</a>
-  
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <!-- navbar end -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="projects.html">Projects <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About</a>
 
-    <div class="page-holder">
-        <iframe style="float: left;
-        width: 50%;" height="1078" scrolling="no" frameBorder="0" src="https://docs.google.com/document/d/e/2PACX-1vTrnw0RXPBuJ3Dh6V2cYofaXUhSQBjWIOpUjIJG3VfbR0BrkTEp0NUhfiuINc9WWXdKnXkK836jRNQ_/pub?embedded=true"></iframe>
-        <img style="float: left;
-        width: 50%;"  src="assets/_ALP7952.jpg"/>
-    
-    <footer class="text-muted" style="background: #0d0d0d">
-      <div class="container-fluid py-5" >
-        <div class="row" >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- navbar end -->
 
-          <div style="left:100px; top:20px" class="col-lg-2 mb-20 mb-lg-3">               
-            <h2 class="h4 text-white mb-4">Follow me</h2>
-            <ul class="list-inline">
-              <div class="row text-white text-small">
-                <div class="col-10">
-                  <ul class="list-unstyled">
-                    <li><a class="reset-anchor" href="https://www.instagram.com/bernadettelaramusic/" target="_blank"><i class="fab fa-instagram mr-2 mb-2 fa-fw"></i>Instagram</a></li>
-                    <li><a class="reset-anchor" href="https://open.spotify.com/artist/0YfujPKxk1ZH2ZZ5yeen08?si=ck-BFhRgROWUFhI5F1RJzg&dl_branch=1" target="_blank"
-                      >  <i class="fab fa-spotify mr-2 mb-2 fa-fw"></i>Spotify</a></li>
-                  
-                  </ul>
-                </div>
-                <div class="col-6">
-                  <ul class="list-unstyled">
-                    <li><a class="reset-anchor" href="https://www.linkedin.com/in/berna-lara-kasar-176400191/" target="_blank"><i class="fab fa-linkedin-in mr-2 mb-2 fa-fw"></i>Linkedin</a></li>
-                    <li><a class="reset-anchor" href="https://www.youtube.com/channel/UCmiWYrwXS-9jsmkiYoGDg_w" target="_blank"><i class="fab fa-youtube mr-2 mb-2 fa-fw"></i>Youtube</a></li>
-                  </ul>
-                </div>
+  <div id="wrapper-div" class="main-wrap">
+    <div class="container">
+      <iframe onload="iframeLoaded()" id="idIframe" width="100%" height="100%" scrolling="no" frameBorder="0"
+        src="https://docs.google.com/document/d/e/2PACX-1vTrnw0RXPBuJ3Dh6V2cYofaXUhSQBjWIOpUjIJG3VfbR0BrkTEp0NUhfiuINc9WWXdKnXkK836jRNQ_/pub?embedded=true">
+      </iframe>
+
+    </div>
+    <div>
+      <img style="width: 100%;" src="assets/_ALP7952.jpg" />
+    </div>
+  </div>
+
+  <footer class="text-muted" style="background: #0d0d0d">
+    <div class="container-fluid py-5">
+      <div class="row">
+        <div style="left:100px; top:20px" class="col-lg-2 mb-20 mb-lg-3">
+          <h2 class="h4 text-white mb-4">Follow me</h2>
+          <ul class="list-inline">
+            <div class="row text-white text-small">
+              <div class="col-10">
+                <ul class="list-unstyled">
+                  <li><a class="reset-anchor" href="https://www.instagram.com/bernadettelaramusic/" target="_blank"><i
+                        class="fab fa-instagram mr-2 mb-2 fa-fw"></i>Instagram</a></li>
+                  <li><a class="reset-anchor"
+                      href="https://open.spotify.com/artist/0YfujPKxk1ZH2ZZ5yeen08?si=ck-BFhRgROWUFhI5F1RJzg&dl_branch=1"
+                      target="_blank"> <i class="fab fa-spotify mr-2 mb-2 fa-fw"></i>Spotify</a></li>
+
+                </ul>
               </div>
-            </ul>
-          </div>
-
-          <div style="left:50px; top:20px" class="col-lg-10 mx-auto">
-            <div class="row">
-              <div class="col-lg-10 mb-10 mb-lg-10">
-                <ul class="list-unstyled text-small mb-0 text-white">
-                  <h2 class="h4 text-white mb-4">Contact Info</h2>
-                  <li class="mb-1"><a class="reset-anchor"> <i class="fas fa-globe-americas text-muted mr-2 fa-fw"></i>Istanbul, Turkey.</a></li>                    <li class="mb-1"><a class="reset-anchor" href="mailto:bernadettekasar@gmail.com
-                    " target="_blank"> <i class="fas fa-envelope text-muted mr-2 fa-fw"></i>bernadettekasar@gmail.com</a></li>
+              <div class="col-6">
+                <ul class="list-unstyled">
+                  <li><a class="reset-anchor" href="https://www.linkedin.com/in/berna-lara-kasar-176400191/"
+                      target="_blank"><i class="fab fa-linkedin-in mr-2 mb-2 fa-fw"></i>Linkedin</a></li>
+                  <li><a class="reset-anchor" href="https://www.youtube.com/channel/UCmiWYrwXS-9jsmkiYoGDg_w"
+                      target="_blank"><i class="fab fa-youtube mr-2 mb-2 fa-fw"></i>Youtube</a></li>
                 </ul>
               </div>
             </div>
+          </ul>
+        </div>
+
+        <div style="left:50px; top:20px" class="col-lg-10 mx-auto">
+          <div class="row">
+            <div class="col-lg-10 mb-10 mb-lg-10">
+              <ul class="list-unstyled text-small mb-0 text-white">
+                <h2 class="h4 text-white mb-4">Contact Info</h2>
+                <li class="mb-1"><a class="reset-anchor"> <i
+                      class="fas fa-globe-americas text-muted mr-2 fa-fw"></i>Istanbul, Turkey.</a></li>
+                <li class="mb-1"><a class="reset-anchor" href="mailto:bernadettekasar@gmail.com
+                    " target="_blank"> <i
+                      class="fas fa-envelope text-muted mr-2 fa-fw"></i>bernadettekasar@gmail.com</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      <div class="bg-dark py-4">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-10 mx-auto">
-              <div class="row text-white">
-                <div class="col-md-6 text-center text-md-left">
-                  <p class="text-small mb-3 mb-md-0"><span class="text-muted">&copy; All rights reserved - Berna Lara Kasar.</span></p>
-                </div>
-                <div class="col-md-6 text-center text-md-right">
-                  <p class="text-small mb-0">
-                    <!-- You are completely free to use this template for your personal use or as a work for your client as long as you keep the link at the template footer pointing to our partner and us.-->
-                    <!-- If you would prefer removing the backlink from the theme footer, please purchase the attribution-free license at the theme page at https://bootstraptemple.com.                            --><span class="text-muted">Template designed by </span><a class="reset-anchor" href="https://bootstraptemple.com/p/minimal-bootstrap-creative-portfolio">Bootstrap Temple</a>
-                  </p>
-                </div>
+    </div>
+    <div class="bg-dark py-4">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="row text-white">
+              <div class="col-md-6 text-center text-md-left">
+                <p class="text-small mb-3 mb-md-0"><span class="text-muted">&copy; All rights reserved - Berna Lara
+                    Kasar.</span></p>
+              </div>
+              <div class="col-md-6 text-center text-md-right">
+                <p class="text-small mb-0">
+                  <!-- You are completely free to use this template for your personal use or as a work for your client as long as you keep the link at the template footer pointing to our partner and us.-->
+                  <!-- If you would prefer removing the backlink from the theme footer, please purchase the attribution-free license at the theme page at https://bootstraptemple.com.                            --><span
+                    class="text-muted">Template designed by </span><a class="reset-anchor"
+                    href="https://bootstraptemple.com/p/minimal-bootstrap-creative-portfolio">Bootstrap Temple</a>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
     </div>
-    <!-- JavaScript files-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/masonry-layout/masonry.pkgd.min.js"></script>
-    <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
-    <script src="js/front.js"></script>
-    <script>
-      // ------------------------------------------------------- //
-      //   Inject SVG Sprite - 
-      //   see more here 
-      //   https://css-tricks.com/ajaxing-svg-sprite/
-      // ------------------------------------------------------ //
-      function injectSvgSprite(path) {
-      
-          var ajax = new XMLHttpRequest();
-          ajax.open("GET", path, true);
-          ajax.send();
-          ajax.onload = function(e) {
-          var div = document.createElement("div");
-          div.className = 'd-none';
-          div.innerHTML = ajax.responseText;
-          document.body.insertBefore(div, document.body.childNodes[0]);
-          }
+  </footer>
+  </div>
+  <!-- JavaScript files-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/masonry-layout/masonry.pkgd.min.js"></script>
+  <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+  <script src="js/front.js"></script>
+
+  <script type="text/javascript">
+    function injectSvgSprite(path) {
+      var ajax = new XMLHttpRequest();
+      ajax.open("GET", path, true);
+      ajax.send();
+      ajax.onload = function (e) {
+        var div = document.createElement("div");
+        div.className = 'd-none';
+        div.innerHTML = ajax.responseText;
+        document.body.insertBefore(div, document.body.childNodes[0]);
       }
-      // this is set to BootstrapTemple website as you cannot 
-      // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
-      // while using file:// protocol
-      // pls don't forget to change to your domain :)
-      injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg'); 
-      
-    </script>
-    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  </body>
+    }
+    injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg');
+
+      if ($(window).width() < 960) {
+        document.getElementById("wrapper-div").className = "";
+    }
+   
+  </script>
+  <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</body>
+
 </html>
